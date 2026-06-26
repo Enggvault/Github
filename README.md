@@ -1,4 +1,4 @@
-<h1 align="center">Git and GitHub Notes for Beginners</h1>
+<h1 align="center">Git and GitHub Notes</h1>
 
 <p align="center">
   <strong>A beginner-friendly learning repository for understanding version control and collaboration from the fundamentals to hands-on practice.</strong>
