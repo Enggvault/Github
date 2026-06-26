@@ -37,29 +37,6 @@ This repository is designed to be easy to read, practical, and useful as both a 
 6. **Collaboration**: Learn about PRs, Forks, and Code Reviews.
 7. **Practice**: Complete the beginner and intermediate tasks.
 
-## Basic Git Workflow
-
-```mermaid
-flowchart LR
-    A[Edit Files] --> B[git status]
-    B --> C[git add]
-    C --> D[git commit]
-    D --> E[git push]
-    E --> F[GitHub Repository]
-```
-
-## GitHub Collaboration Workflow
-
-```mermaid
-flowchart TD
-    A[Create Branch] --> B[Make Changes]
-    B --> C[Commit Changes]
-    C --> D[Push Branch]
-    D --> E[Open Pull Request]
-    E --> F[Code Review]
-    F --> G[Merge to Main]
-```
-
 ## Folder Structure
 
 ```txt

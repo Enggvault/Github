@@ -36,3 +36,14 @@ git push origin main
 - Morning: `git pull`
 - Day: `git add .` -> `git commit -m "..."`
 - Evening: `git push`
+
+## Diagram
+
+```mermaid
+flowchart LR
+    A[Edit Files] --> B[git status]
+    B --> C[git add]
+    C --> D[git commit]
+    D --> E[git push]
+    E --> F[GitHub Repository]
+```

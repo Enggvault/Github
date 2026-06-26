@@ -47,3 +47,15 @@ git branch -d feature/login-page  # Delete the local branch to keep things clean
 - Always create a branch for your feature.
 - Push the branch and open a Pull Request.
 - Merge on GitHub, pull locally, delete the old branch.
+
+## Diagram
+
+```mermaid
+flowchart TD
+    A[Create Branch] --> B[Make Changes]
+    B --> C[Commit Changes]
+    C --> D[Push Branch]
+    D --> E[Open Pull Request]
+    E --> F[Code Review]
+    F --> G[Merge to Main]
+```
