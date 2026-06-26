@@ -77,8 +77,7 @@ git-github-notes/
 ├── 07-undo-and-fix/
 ├── 08-github-features/
 ├── 09-practical-workflows/
-├── 10-practice/
-└── diagrams/
+└── 10-practice/
 ```
 
 Check out [ROADMAP.md](./ROADMAP.md) for a step-by-step path from beginner to advanced.

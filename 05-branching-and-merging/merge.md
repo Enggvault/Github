@@ -37,3 +37,19 @@ If you finished working on `feature-login` and want to merge it into `main`:
 - Combines the work from one branch into another.
 - Always switch to the receiving branch (like `main`) first.
 - Run `git merge <feature-branch>` to bring those changes in.
+
+## Diagram
+
+```mermaid
+gitGraph
+    commit id: "Initial Commit"
+    commit id: "Add index.html"
+    branch feature-login
+    checkout feature-login
+    commit id: "Add login form"
+    commit id: "Style login form"
+    checkout main
+    commit id: "Fix typo in index"
+    merge feature-login id: "Merge login feature"
+    commit id: "Final polish"
+```

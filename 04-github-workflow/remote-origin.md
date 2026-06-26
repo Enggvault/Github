@@ -39,3 +39,21 @@ git remote -v
 - A "remote" is the link between your local folder and GitHub.
 - "origin" is the default name for that link.
 - `git remote -v` shows your current connections.
+
+## Diagram
+
+```mermaid
+flowchart LR
+    subgraph Local Computer
+        WD[Working Directory] -- "git add" --> SA[Staging Area]
+        SA -- "git commit" --> LR[Local Repository]
+    end
+
+    subgraph GitHub Server
+        RR[Remote Repository]
+    end
+
+    LR -- "git push" --> RR
+    RR -- "git fetch / pull" --> LR
+    RR -- "git clone" --> WD
+```

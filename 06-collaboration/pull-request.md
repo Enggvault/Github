@@ -31,3 +31,23 @@ Pull Requests are created on the GitHub website, not the terminal.
 - A request for someone to review and merge your code.
 - Standard practice for all team collaboration.
 - Created on the GitHub website after pushing a branch.
+
+## Diagram
+
+```mermaid
+sequenceDiagram
+    actor Developer
+    participant Local Branch
+    participant GitHub
+    actor Reviewer
+
+    Developer->>Local Branch: git commit
+    Developer->>GitHub: git push origin feature-branch
+    Developer->>GitHub: Open Pull Request
+    GitHub->>Reviewer: Request Review
+    Reviewer->>GitHub: Add Comments / Approve
+    Developer->>Local Branch: Make requested changes
+    Developer->>GitHub: Push fixes
+    Reviewer->>GitHub: Approve PR
+    GitHub->>GitHub: Merge PR into main
+```

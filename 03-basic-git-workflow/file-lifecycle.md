@@ -25,3 +25,16 @@ flowchart LR
 - **Working Directory:** Where you type your code.
 - **Staging Area:** Where you prepare files for saving.
 - **Repository:** Where files are permanently saved as commits.
+
+## Diagram
+
+```mermaid
+stateDiagram-v2
+    [*] --> Untracked : Create new file
+    Untracked --> Staged : git add
+    Staged --> Committed : git commit
+    Committed --> Modified : Edit file
+    Modified --> Staged : git add
+    Modified --> Committed : git restore (discard changes)
+    Staged --> Modified : git restore --staged (unstage)
+```

@@ -25,3 +25,28 @@ There is no command-line syntax for forking. It is done on the GitHub website.
 - A fork is a personal copy of someone else's GitHub project.
 - Used heavily in open-source contributions.
 - Click the Fork button on GitHub, then clone your copy.
+
+## Diagram
+
+```mermaid
+flowchart TD
+    subgraph Original Owner
+        OR[Original Repository]
+    end
+
+    subgraph Your GitHub Account
+        FR[Your Forked Repository]
+    end
+
+    subgraph Your Computer
+        LR[Local Repository]
+    end
+
+    OR -- "1. Fork on GitHub" --> FR
+    FR -- "2. git clone" --> LR
+    OR -. "3. git remote add upstream" .-> LR
+    LR -- "4. git push origin branch" --> FR
+    FR -- "5. Open Pull Request" --> OR
+    OR -- "6. Merge PR" --> OR
+    OR -- "7. git pull upstream main" --> LR
+```
