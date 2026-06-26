@@ -1,4 +1,4 @@
-# Git and GitHub Notes for Beginners
+<h1 align="center">Git and GitHub Notes for Beginners</h1>
 
 <p align="center">
   <strong>A beginner-friendly learning repository for understanding version control and collaboration from the fundamentals to hands-on practice.</strong>
@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/Contributions-Welcome-purple" alt="Contributions Welcome" />
 </p>
 
-## Overview
+<h2 align="center">Overview</h2>
 
 **Git and GitHub Notes for Beginners** is a structured learning repository created for students and beginners who want to master version control and team collaboration.
 
@@ -19,7 +19,7 @@ The content is organized into a simple **logical learning path**, starting from 
 
 This repository is designed to be easy to read, practical, and useful as both a learning guide and a quick revision resource.
 
-## Learning Path
+<h2 align="center">Learning Path</h2>
 
 | Module | Topic | Folder | Focus Area |
 | :--- | :--- | :--- | :--- |
@@ -28,16 +28,16 @@ This repository is designed to be easy to read, practical, and useful as both a 
 | Module 3 | Branching, Merging & Collaboration | [05-branching-and-merging/](./05-branching-and-merging/) & [06-collaboration/](./06-collaboration/) | Branches, Conflicts, Forks, Pull Requests, Issues |
 | Module 4 | Undoing, Features & Practice | [07-undo-and-fix/](./07-undo-and-fix/) to [10-practice/](./10-practice/) | `reset`, `revert`, GitHub Actions, Real-world workflows, Tasks |
 
-## What You Will Learn
+<h2 align="center">What You Will Learn</h2>
 
-### Module 1: Introduction and Setup
+<h3 align="center">Module 1: Introduction and Setup</h3>
 Start with the bigger picture of version control.
 * The difference between Git and GitHub
 * Centralized vs Distributed version control
 * Installing Git on your local machine
 * Authenticating with GitHub using HTTPS (PAT) and SSH
 
-### Module 2: Core Workflows
+<h3 align="center">Module 2: Core Workflows</h3>
 Understand the everyday commands used by developers.
 * The file lifecycle (Untracked, Staged, Committed)
 * Making local commits with clear messages
@@ -45,7 +45,7 @@ Understand the everyday commands used by developers.
 * Pushing and pulling code from the cloud
 * Cloning public and private repositories
 
-### Module 3: Collaboration and Teamwork
+<h3 align="center">Module 3: Collaboration and Teamwork</h3>
 Move into professional team development concepts.
 * Creating and switching branches
 * Merging code and resolving merge conflicts
@@ -53,7 +53,7 @@ Move into professional team development concepts.
 * Opening, reviewing, and merging Pull Requests
 * Using Issues and Discussions
 
-### Module 4: Advanced Fixes and Practice
+<h3 align="center">Module 4: Advanced Fixes and Practice</h3>
 Learn to undo mistakes and apply your knowledge.
 * Restoring files and resetting commits
 * Stashing temporary work
@@ -61,7 +61,7 @@ Learn to undo mistakes and apply your knowledge.
 * Daily developer and team collaboration workflows
 * Hands-on beginner and intermediate coding tasks
 
-## Repository Highlights
+<h2 align="center">Repository Highlights</h2>
 
 * Clean and beginner-friendly explanations
 * Structured step-by-step learning flow
@@ -72,7 +72,7 @@ Learn to undo mistakes and apply your knowledge.
 * Cheatsheet for quick reference
 * Mini-project assignment for practice
 
-## Recommended Learning Order
+<h2 align="center">Recommended Learning Order</h2>
 
 1. Start with [01-introduction](./01-introduction) to understand *why* we use version control.
 2. Follow [02-setup](./02-setup) to get your machine ready.
@@ -81,7 +81,7 @@ Learn to undo mistakes and apply your knowledge.
 5. Revise using [CHEATSHEET.md](./CHEATSHEET.md).
 6. Try the practical tasks in [10-practice](./10-practice).
 
-## Who Is This Repository For?
+<h2 align="center">Who Is This Repository For?</h2>
 
 This repository is useful for:
 
@@ -91,20 +91,20 @@ This repository is useful for:
 * Developers who want quick revision notes and cheatsheets
 * Contributors who want to improve student-friendly learning resources
 
-## How to Use This Repository
+<h2 align="center">How to Use This Repository</h2>
 
 You can use this repository in three ways:
 
-### 1. Learn Step by Step
+<h3 align="center">1. Learn Step by Step</h3>
 Clone the repository and read through the modules in numerical order (01 to 10).
 
-### 2. Use as a Cheatsheet
+<h3 align="center">2. Use as a Cheatsheet</h3>
 Search inside the notes or open [CHEATSHEET.md](./CHEATSHEET.md) whenever you need to revise a specific command, syntax, or concept.
 
-### 3. Practice With Tasks
+<h3 align="center">3. Practice With Tasks</h3>
 Use the theory questions, checklists, and mini-project from the [10-practice](./10-practice) folder to test your understanding.
 
-## Suggested Practice Project
+<h2 align="center">Suggested Practice Project</h2>
 
 After completing the notes, try building a dummy project by:
 * Creating a new empty repository on GitHub
@@ -115,7 +115,7 @@ After completing the notes, try building a dummy project by:
 * Opening a Pull Request on GitHub and merging it
 * Pulling the changes back down to your local `main` branch
 
-## Contribution Guidelines
+<h2 align="center">Contribution Guidelines</h2>
 
 Contributions are welcome.
 
@@ -129,7 +129,7 @@ You can contribute by:
 
 Before contributing, please see [CONTRIBUTING.md](./CONTRIBUTING.md) and make sure your changes are clear, simple, and helpful for beginners.
 
-## Future Improvements
+<h2 align="center">Future Improvements</h2>
 
 Planned additions may include:
 * Advanced Git (Cherry-picking, Bisect)
