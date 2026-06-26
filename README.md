@@ -1,7 +1,7 @@
 # Git and GitHub Notes for Beginners
 
 <p align="center">
-  <strong>A beginner-friendly Git and GitHub learning repository with topic-wise notes, diagrams, workflows, commands, examples, and practice tasks.</strong>
+  <strong>A beginner-friendly learning repository for understanding version control and collaboration from the fundamentals to hands-on practice.</strong>
 </p>
 
 <p align="center">
@@ -15,88 +15,128 @@
 
 **Git and GitHub Notes for Beginners** is a structured learning repository created for students and beginners who want to master version control and team collaboration.
 
-The content is organized into logical topic modules, starting from basic Git initialization and moving all the way up to branching, merging, open-source contribution, and GitHub features.
+The content is organized into a simple **logical learning path**, starting from basic Git initialization and moving all the way up to branching, merging, open-source contribution, and GitHub features.
 
-This repository is designed to be easy to read, practical, and useful as both a learning guide and a quick reference cheatsheet.
+This repository is designed to be easy to read, practical, and useful as both a learning guide and a quick revision resource.
+
+## Learning Path
+
+| Module | Topic | Folder | Focus Area |
+| :--- | :--- | :--- | :--- |
+| Module 1 | Introduction & Setup | [01-introduction/](./01-introduction/) & [02-setup/](./02-setup/) | What is Git/GitHub, Installation, HTTPS & SSH Authentication |
+| Module 2 | Basic Git & GitHub Workflow | [03-basic-git-workflow/](./03-basic-git-workflow/) & [04-github-workflow/](./04-github-workflow/) | `init`, `add`, `commit`, `status`, `push`, `pull`, `clone` |
+| Module 3 | Branching, Merging & Collaboration | [05-branching-and-merging/](./05-branching-and-merging/) & [06-collaboration/](./06-collaboration/) | Branches, Conflicts, Forks, Pull Requests, Issues |
+| Module 4 | Undoing, Features & Practice | [07-undo-and-fix/](./07-undo-and-fix/) to [10-practice/](./10-practice/) | `reset`, `revert`, GitHub Actions, Real-world workflows, Tasks |
 
 ## What You Will Learn
 
-* The basics of version control and why it's essential.
-* How to track files, make commits, and manage local history.
-* Working with branches and resolving merge conflicts.
-* Collaborating on GitHub, including pull requests and forks.
-* Advanced Git workflows, undoing mistakes, and best practices.
+### Module 1: Introduction and Setup
+Start with the bigger picture of version control.
+* The difference between Git and GitHub
+* Centralized vs Distributed version control
+* Installing Git on your local machine
+* Authenticating with GitHub using HTTPS (PAT) and SSH
 
-## Recommended Study Order
+### Module 2: Core Workflows
+Understand the everyday commands used by developers.
+* The file lifecycle (Untracked, Staged, Committed)
+* Making local commits with clear messages
+* Linking local repositories to remote origins
+* Pushing and pulling code from the cloud
+* Cloning public and private repositories
 
-1. **Introduction**: Understand the "why" before the "how".
-2. **Setup**: Get Git installed and authenticated with GitHub.
-3. **Basic Git Workflow**: Master local tracking (`add`, `commit`, `status`).
-4. **GitHub Workflow**: Learn to `push`, `pull`, and `clone`.
-5. **Branching & Merging**: Understand parallel development.
-6. **Collaboration**: Learn about PRs, Forks, and Code Reviews.
-7. **Practice**: Complete the beginner and intermediate tasks.
+### Module 3: Collaboration and Teamwork
+Move into professional team development concepts.
+* Creating and switching branches
+* Merging code and resolving merge conflicts
+* Forking open-source repositories
+* Opening, reviewing, and merging Pull Requests
+* Using Issues and Discussions
 
-## Folder Structure
+### Module 4: Advanced Fixes and Practice
+Learn to undo mistakes and apply your knowledge.
+* Restoring files and resetting commits
+* Stashing temporary work
+* Fixing the "Non-Fast-Forward" error
+* Daily developer and team collaboration workflows
+* Hands-on beginner and intermediate coding tasks
 
-```txt
-git-github-notes/
-├── README.md
-├── ROADMAP.md
-├── CHEATSHEET.md
-├── CONTRIBUTING.md
-├── 01-introduction/
-├── 02-setup/
-├── 03-basic-git-workflow/
-├── 04-github-workflow/
-├── 05-branching-and-merging/
-├── 06-collaboration/
-├── 07-undo-and-fix/
-├── 08-github-features/
-├── 09-practical-workflows/
-└── 10-practice/
-```
+## Repository Highlights
 
-Check out [ROADMAP.md](./ROADMAP.md) for a step-by-step path from beginner to advanced.
+* Clean and beginner-friendly explanations
+* Structured step-by-step learning flow
+* Markdown tables for quick command revision
+* Embedded Mermaid diagrams for visual understanding
+* Real-world analogies for complex topics
+* Code snippets for practical learning
+* Cheatsheet for quick reference
+* Mini-project assignment for practice
+
+## Recommended Learning Order
+
+1. Start with [01-introduction](./01-introduction) to understand *why* we use version control.
+2. Follow [02-setup](./02-setup) to get your machine ready.
+3. Master the commands in [03-basic-git-workflow](./03-basic-git-workflow) and [04-github-workflow](./04-github-workflow).
+4. Read through the Branching and Collaboration modules to learn how to work with others.
+5. Revise using [CHEATSHEET.md](./CHEATSHEET.md).
+6. Try the practical tasks in [10-practice](./10-practice).
 
 ## Who Is This Repository For?
 
 This repository is useful for:
 
-* Absolute beginners who want to learn version control.
-* Students preparing for software engineering roles.
-* Developers looking for a structured reference to Git commands and workflows.
-* Mentors and teachers preparing basic Git sessions.
+* Students starting software engineering
+* Beginners learning version control for the first time
+* Teachers or mentors preparing basic Git sessions
+* Developers who want quick revision notes and cheatsheets
+* Contributors who want to improve student-friendly learning resources
 
 ## How to Use This Repository
 
-You can use this repository in several ways:
+You can use this repository in three ways:
 
-### 1. Read Step by Step
-**Clone the repository** to your local machine:
-```bash
-git clone https://github.com/USERNAME/git-github-notes.git
-cd git-github-notes
-```
-Read the topics in the recommended order.
+### 1. Learn Step by Step
+Clone the repository and read through the modules in numerical order (01 to 10).
 
-### 2. Use as a Reference Guide
-Jump straight into the `09-practical-workflows` or the `CHEATSHEET.md` when you forget how to do something.
+### 2. Use as a Cheatsheet
+Search inside the notes or open [CHEATSHEET.md](./CHEATSHEET.md) whenever you need to revise a specific command, syntax, or concept.
 
-### 3. Hands-on Practice
-Practice the commands in a separate dummy repository.
+### 3. Practice With Tasks
+Use the theory questions, checklists, and mini-project from the [10-practice](./10-practice) folder to test your understanding.
+
+## Suggested Practice Project
+
+After completing the notes, try building a dummy project by:
+* Creating a new empty repository on GitHub
+* Cloning it locally
+* Adding a `README.md` and committing it
+* Creating a new branch named `feature-update`
+* Making a change, committing, and pushing the branch
+* Opening a Pull Request on GitHub and merging it
+* Pulling the changes back down to your local `main` branch
 
 ## Contribution Guidelines
 
-Contributions are welcome! Found a typo or have an idea to improve the notes? Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on opening issues and submitting pull requests.
+Contributions are welcome.
 
 You can contribute by:
 * Fixing spelling or formatting issues
 * Improving explanations
-* Adding examples or diagrams
-* Expanding notes with new practical workflows
+* Adding examples
+* Adding diagrams
+* Adding beginner-friendly coding tasks
+* Expanding notes with advanced Git topics
 
-Before contributing, make sure your changes are clear, simple, and helpful for beginners.
+Before contributing, please see [CONTRIBUTING.md](./CONTRIBUTING.md) and make sure your changes are clear, simple, and helpful for beginners.
+
+## Future Improvements
+
+Planned additions may include:
+* Advanced Git (Cherry-picking, Bisect)
+* Deep dive into GitHub Actions (CI/CD)
+* Managing submodules
+* Git Hooks basics
+* Interview questions for beginners
 
 <h2 align="center">Maintainer</h2>
 
@@ -113,5 +153,5 @@ Before contributing, make sure your changes are clear, simple, and helpful for b
 </p>
 
 <p align="center">
-  If this repository helps you, consider giving it a star! ⭐
+  If this repository helps you, consider giving it a star.
 </p>
